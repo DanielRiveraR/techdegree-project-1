@@ -9,7 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: whitesmoke;
+}
+.main-content{
+  padding: .5em;
+  background: whitesmoke;
+}
+.aditional-content{
+  padding: .5em;
+  background: whitesmoke;
+  text-align: left;
 }
 /* Link Styles */
 
@@ -32,14 +41,14 @@ a:hover {
   text-align: center;
 }
 
-/* .images-hobbies {
+.images-hobbies {
   margin-top: 50px;
-  width: .25rem;
-  height: .25rem;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   border: 3px solid whitesmoke;
   transition: all .5s;
-} */
+}
 
 .nav {
   display: flex;
@@ -84,7 +93,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(360deg);
 }
 .tag {
   background-color: black;
@@ -98,7 +107,7 @@ header .profile-image:hover {
   background-color:black;
   color: #DC5839;
 }
-.card {
+.card1 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -108,10 +117,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card1:hover {
   border-color: #ff99ff;
 }
-
+.card2:hover {
+  border-color: #ff99ff;
+}
 
 ul.skills {
   padding: 0;
@@ -162,12 +183,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
+
 a.github {
   background-image: url(images/github.svg);
 }
